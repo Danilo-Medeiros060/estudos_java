@@ -37,7 +37,10 @@ public class PrintOperadores {
 		System.out.printf("O resto é: %d\n", rest);
 		
 		if(rest != 0) {
-			System.out.printf("O número é ímpar");
+			System.out.printf("\nO número é ímpar!");
+		}
+		if(rest == 0) {
+			System.out.printf("\nO número é par!");
 		}
 	}
 }
