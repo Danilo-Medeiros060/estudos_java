@@ -4,6 +4,7 @@ import java.util.Scanner; //Classe Scanner
 public class PrintOperadores {
 	public static void main (String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner( System.in ); // gerador de scanner
 		
 		int num1;
