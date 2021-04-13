@@ -1,9 +1,12 @@
 package A10_03_21;
 
-public class BoasVindas//salva no arquivo BoasVindas.java
-{
- public void mostraMensagem()
- {
- System.out.println("Bem vindo ao java!!");
- }
+import java.util.Random;
+
+public class BoasVindas{
+	public static void main(String[] args) {
+		Random var = new Random();
+		int v1 = var.nextInt(8);
+		
+		System.out.println("int="+v1);
+	}
 }
