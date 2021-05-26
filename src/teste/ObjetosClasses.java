@@ -5,7 +5,7 @@ public class ObjetosClasses {
 		
 		Caneta c1 = new Caneta();
 		
-		c1.cor = "Azul";
+		c1.cor = "vermelha";
 		c1.ponta = 0.5f;
 		
 		c1.destampar();
